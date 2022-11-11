@@ -1,7 +1,6 @@
 # Python_assingment
 
 Q1. Why do we call Python as a general purpose and high-level programming language?
-ANS:
 # It provides rich data types and easier to read syntax than any other programming languages. 
 # It is a platform independent scripted language with full access to operating system API's.
 # Compared to other programming languages, it allows more run-time flexibility.
@@ -18,12 +17,10 @@ ANS:
 
 
 Q2. Why is Python called a dynamically typed language?
-ANS:
 # Python is a dynamically typed language. It doesn’t know about the type of the variable until the code is run. So declaration is of no use. What it does is, It stores that value at some memory location and then binds that variable name to that memory container. And makes the contents of the container accessible through that variable name. So the data type does not matter. As it will get to know the type of the value at run-time.
 
 
 Q3. List some pros and cons of Python programming language?
-ANS:
 # Pros.
 Python is easy to learn and read.
 Python enhances productivity.
@@ -40,7 +37,6 @@ Runtime Errors.
 
 
 Q4. In what all domains can we use Python?
-ANS:
 # Machine learning / Artificial intelligence
 # Desktop GUI
 # Data analytics and data visualization 
@@ -52,7 +48,6 @@ ANS:
 
 
 Q5. What are variable and how can we declare them?
-ANS:
 # Following variables are use in python
 Integer, Long Integer, Float, and String.
 # To create a string, put the sequence of characters inside either single quotes, double quotes, or triple quotes and then assign it to a variable.
@@ -61,24 +56,20 @@ eg: (ab_123)
 
 
 Q6. How can we take an input from the user in Python?
-ANS:
 # We can use input () junction.
 # input("Enter username:") print("Username is: " + username)
 
 
 Q7. What is the default datatype of the value that has been taken as an input using input() function?
-ANS:
 # The input() function by default returns the value as string data type.
 
 
 Q8. What is type casting?
-ANS:
 # The conversion of one data type into the other data type is known as type casting in python or type conversion in python.
 # Python supports a wide variety of functions or methods like: int(), float(), str(), ord(), hex(), oct(), tuple(), set(), list(), dict(), etc. for the type casting in python.
 
 
 Q9. Can we take more than one input from the user using single input() function? If yes, how? If no, why?
-ANS:
 # YES ,You can take multiple inputs in one single line by using the raw_input function several times as shown below.
 # multiple inputs in Python using input
 x, y = input("Enter First Name: "), input("Enter Last Name: ") 
@@ -93,7 +84,6 @@ Second Name is: SHUBHAM
 
 
 Q10. What are keywords?
-ANS:
 # Reserved words are present in every programming language. Be it Java or Python, each programming language has a set of reserved keywords. These words are also known as keywords. They convey a specific message.
 eg:
 # False               def                 if                  raise
@@ -108,14 +98,53 @@ eg:
 
 
 Q11. Can we use keywords as a variable? Support your answer with reason.
+# Keywords are the reserved words in Python. We cannot use a keyword as a variable name, function name or any other identifier. They are used to define the syntax and structure of the Python language. In Python, keywords are case sensitive. All the keywords in python are written in lower case except True and False.
+
 
 Q12. What is indentation? What's the use of indentaion in Python?
+# Indentation refers to the spaces at the beginning of a code line.
+# Where in other programming languages the indentation in code is for readability only, the indentation in Python is very important.
+# Python uses indentation to indicate a block of code.
+eg:
+if 5 > 2:
+  print("Five is greater than two!")
+# Python will give you an error if you skip the indentation:
+eg:
+Syntax Error:
+if 5 > 2:
+print("Five is greater than two!")
+
 
 Q13. How can we throw some output in Python?
+# The basic way to do output is the print statement. To end the printed line with a newline, add a print statement without any objects. This will print to any object that implements write(), which includes file objects.
+
 
 Q14. What are operators in Python?
+# Python divides the operators in the following groups:
+eg:
+Arithmetic operators
+Assignment operators
+Comparison operators
+Logical operators
+Identity operators
+Membership operators
+Bitwise operators
+
 
 Q15. What is difference between / and // operators?
+# '/ '='Division '   	x / y
+x = 12
+y = 3
+print(x / y)
+4
+
+# '//	'='Floor division'  	x // y
+x = 15
+y = 2
+print(x // y)
+7
+# the floor division // rounds the result down to the nearest whole number
+
 
 Q16. Write a code that gives following as an output.
 ```
