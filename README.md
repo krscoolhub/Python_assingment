@@ -150,6 +150,9 @@ Q16. Write a code that gives following as an output.
 ```
 iNeuroniNeuroniNeuroniNeuron
 ```
+# str = "iNeuron"
+# print(str*4)
+
 
 Q17. Write a code to take a number as an input from the user and check if the number is odd or even.
 
