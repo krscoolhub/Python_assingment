@@ -155,8 +155,19 @@ iNeuroniNeuroniNeuroniNeuron
 
 
 Q17. Write a code to take a number as an input from the user and check if the number is odd or even.
+#
+num = int(input("Enter a number: "))
+mod = num % 2
+if mod > 0:
+    print("This is an odd number.")
+else:
+    print("This is an even number.")
+
+
 
 Q18. What are boolean operator?
+# The logical operators and, or and not are boolean operators.
+
 
 Q19. What will the output of the following?
 ```
@@ -171,7 +182,16 @@ True and False and True
 
 Q20. What are conditional statements in Python?
 
+# A conditional statement as the name suggests itself, is used to handle conditions in your program. These statements guide the program while making decisions based on the conditions encountered by the program.
+Python has 3 key Conditional Statements:
+if
+else
+elif
+
+
 Q21. What is use of 'if', 'elif' and 'else' keywords?
+
+
 
 Q22. Write a code to take the age of person as an input and if age >= 18 display "I can vote". If age is < 18 display "I can't vote".
 
