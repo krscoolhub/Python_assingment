@@ -171,13 +171,13 @@ Q18. What are boolean operator?
 
 Q19. What will the output of the following?
 ```
-1 or 0 >> True
+1 or 0 >>  True
 
-0 and 0 >> False
+0 and 0 >>  False
 
-True and False and True >> False
+True and False and True >>   False
 
-1 or 0 or 0 >> 1
+1 or 0 or 0 >>   1
 ```
 
 Q20. What are conditional statements in Python?
@@ -214,7 +214,6 @@ result = 0
 for i in numbers:
     if not i % 2:
         result += i
-
 print(result)
 
 
@@ -254,6 +253,7 @@ desired_output = "iNeuron"
 # o/p
 str = "Big Data iNeuron"
 print(str[8:])
+
 
 Q29. Write a code to get the desired output of the following
 ```
@@ -342,6 +342,9 @@ Q58. What will the output of the following?
 var = {}
 print(type(var))
 ```
+# o/p
+<class 'dict'>
+
 
 Q59. How can we add an element in a dictionary?
 
