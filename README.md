@@ -208,6 +208,14 @@ Q23. Write a code that displays the sum of all the even numbers from the given l
 ```
 numbers = [12, 75, 150, 180, 145, 525, 50]
 ```
+# o/p
+numbers = [12, 75, 150, 180, 145, 525, 50]
+result = 0
+for i in numbers:
+    if not i % 2:
+        result += i
+
+print(result)
 
 
 Q24. Write a code to take 3 numbers as an input from the user and display the greatest no as output.
@@ -232,13 +240,20 @@ numbers = [12, 75, 150, 180, 145, 525, 50]
 ```
 Q26. What is a string? How can we declare string in Python?
 
+# strings in Python are arrays of bytes representing unicode characters. However, Python does not have a character data type, a single character is simply a string with a length of 1.To create a string, put the sequence of characters inside either single quotes, double quotes, or triple quotes and then assign it to a variable.
+
 Q27. How can we access the string using its index?
+
+#  Individual characters in a string can be accessed by specifying the string name followed by a number in square brackets ( [] ). String indexing in Python is zero-based: the first character in the string has index 0 , the next has index 1 , and so on.
 
 Q28. Write a code to get the desired output of the following
 ```
 string = "Big Data iNeuron"
 desired_output = "iNeuron"
 ```
+# o/p
+str = "Big Data iNeuron"
+print(str[8:])
 
 Q29. Write a code to get the desired output of the following
 ```
@@ -247,8 +262,15 @@ desired_output = "norueNi"
 ```
 
 Q30. Resverse the string given in the above question.
+# o/p
+str = "Big Data iNeuron"[::-1]
+print(str)
+
 
 Q31. How can you delete entire string at once?
+
+# To clear or remove a string, you assign an empty string or use the del statement,
+
 
 Q32. What is escape sequence?
 
@@ -256,6 +278,10 @@ Q33. How can you print the below string?
 ```
 'iNeuron's Big Data Course'
 ```
+#
+string = str("'iNeuron's Big Data Course'")
+print(string)
+
 
 Q34. What is a list in Python?
 
@@ -309,7 +335,7 @@ Q55. What is dictionary ibn Python?
 
 Q56. How is dictionary different from all other data structures.
 
-Q57. How can we delare a dictionary in Python?
+Q57. How can we declare a dictionary in Python?
 
 Q58. What will the output of the following?
 ```
