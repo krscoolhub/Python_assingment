@@ -1,27 +1,28 @@
 # Python_assingment
 
-Q1. Why do we call Python as a general purpose and high-level programming language?
-# It provides rich data types and easier to read syntax than any other programming languages. 
-# It is a platform independent scripted language with full access to operating system API's.
-# Compared to other programming languages, it allows more run-time flexibility.
-# For building large applications, Python can be compiled to byte-code.
-# Python supports functional and structured programming as well as OOP.
-# In Python, since there is no compilation step, editing, debugging and testing is fast.
-# Easy-to-learn − Python has few keywords, simple structure, and a clearly defined syntax. This allows the student to pick up the language quickly.
-# Easy-to-read − Python code is more clearly defined and visible to the eyes.
-# Easy-to-maintain − Python's source code is fairly easy-to-maintain.
-# A broad standard library − Python's bulk of the library is very portable and cross-platform compatible on UNIX, Windows, and Macintosh.
-# Python is a powerful language that you can use to create games, write GUIs, and develop web applications.
-# It is a high-level language. Reading and writing codes in Python is much like reading and writing regular English statements. Because they are not written in machine-readable language, Python programs need to be processed before machines can run them.
-# Python is an interpreted language. This means that every time a program is run, its interpreter runs through the code and translates it into machine-readable byte code.
+Q1. Why do we call Python as a general purpose and high-level programming language? 
+ANS:
+>It provides rich data types and easier to read syntax than any other programming languages. 
+>It is a platform independent scripted language with full access to operating system API's.
+>Compared to other programming languages, it allows more run-time flexibility.
+>For building large applications, Python can be compiled to byte-code.
+>Python supports functional and structured programming as well as OOP.
+>In Python, since there is no compilation step, editing, debugging and testing is fast.
+>Easy-to-learn − Python has few keywords, simple structure, and a clearly defined syntax. This allows the student to pick up the language quickly.
+>Easy-to-read − Python code is more clearly defined and visible to the eyes.
+>Easy-to-maintain − Python's source code is fairly easy-to-maintain.
+>A broad standard library − Python's bulk of the library is very portable and cross-platform compatible on UNIX, Windows, and Macintosh.
+>Python is a powerful language that you can use to create games, write GUIs, and develop web applications.
+>It is a high-level language. Reading and writing codes in Python is much like reading and writing regular English statements. Because they are not written in machine-readable language, Python programs need to be processed before machines can run them.
+>Python is an interpreted language. This means that every time a program is run, its interpreter runs through the code and translates it into machine-readable byte code.
 
 
 Q2. Why is Python called a dynamically typed language?
-# Python is a dynamically typed language. It doesn’t know about the type of the variable until the code is run. So declaration is of no use. What it does is, It stores that value at some memory location and then binds that variable name to that memory container. And makes the contents of the container accessible through that variable name. So the data type does not matter. As it will get to know the type of the value at run-time.
+ANS: Python is a dynamically typed language. It doesn’t know about the type of the variable until the code is run. So declaration is of no use. What it does is, It stores that value at some memory location and then binds that variable name to that memory container. And makes the contents of the container accessible through that variable name. So the data type does not matter. As it will get to know the type of the value at run-time.
 
 
 Q3. List some pros and cons of Python programming language?
-# Pros.
+ANS: Pros.
 Python is easy to learn and read.
 Python enhances productivity.
 Python has a vast collection of libraries.
@@ -56,22 +57,22 @@ eg: (ab_123)
 
 
 Q6. How can we take an input from the user in Python?
-# We can use input () junction.
-# input("Enter username:") print("Username is: " + username)
+ANS: We can use input () junction.
+input("Enter username:") print("Username is: " + username)
 
 
 Q7. What is the default datatype of the value that has been taken as an input using input() function?
-# The input() function by default returns the value as string data type.
+ANS:  The input() function by default returns the value as string data type.
 
 
 Q8. What is type casting?
-# The conversion of one data type into the other data type is known as type casting in python or type conversion in python.
-# Python supports a wide variety of functions or methods like: int(), float(), str(), ord(), hex(), oct(), tuple(), set(), list(), dict(), etc. for the type casting in python.
+ANS: The conversion of one data type into the other data type is known as type casting in python or type conversion in python.
+> Python supports a wide variety of functions or methods like: int(), float(), str(), ord(), hex(), oct(), tuple(), set(), list(), dict(), etc. for the type casting in python.
 
 
 Q9. Can we take more than one input from the user using single input() function? If yes, how? If no, why?
-# YES ,You can take multiple inputs in one single line by using the raw_input function several times as shown below.
-# multiple inputs in Python using input
+ANS: YES ,You can take multiple inputs in one single line by using the raw_input function several times as shown below.
+> multiple inputs in Python using input
 x, y = input("Enter First Name: "), input("Enter Last Name: ") 
 print("First Name is: ", x) 
 print("Second Name is: ", y)
@@ -84,7 +85,7 @@ Second Name is: SHUBHAM
 
 
 Q10. What are keywords?
-# Reserved words are present in every programming language. Be it Java or Python, each programming language has a set of reserved keywords. These words are also known as keywords. They convey a specific message.
+ANS: Reserved words are present in every programming language. Be it Java or Python, each programming language has a set of reserved keywords. These words are also known as keywords. They convey a specific message.
 eg:
 # False               def                 if                  raise
 # None                del                 import              return
@@ -102,13 +103,13 @@ Q11. Can we use keywords as a variable? Support your answer with reason.
 
 
 Q12. What is indentation? What's the use of indentaion in Python?
-# Indentation refers to the spaces at the beginning of a code line.
-# Where in other programming languages the indentation in code is for readability only, the indentation in Python is very important.
-# Python uses indentation to indicate a block of code.
+ANS: Indentation refers to the spaces at the beginning of a code line.
+> Where in other programming languages the indentation in code is for readability only, the indentation in Python is very important.
+> Python uses indentation to indicate a block of code.
 eg:
 if 5 > 2:
   print("Five is greater than two!")
-# Python will give you an error if you skip the indentation:
+> Python will give you an error if you skip the indentation:
 eg:
 Syntax Error:
 if 5 > 2:
@@ -116,11 +117,11 @@ print("Five is greater than two!")
 
 
 Q13. How can we throw some output in Python?
-# The basic way to do output is the print statement. To end the printed line with a newline, add a print statement without any objects. This will print to any object that implements write(), which includes file objects.
+ANS: The basic way to do output is the print statement. To end the printed line with a newline, add a print statement without any objects. This will print to any object that implements write(), which includes file objects.
 
 
 Q14. What are operators in Python?
-# Python divides the operators in the following groups:
+ANS: Python divides the operators in the following groups:
 eg:
 Arithmetic operators
 Assignment operators
@@ -132,30 +133,30 @@ Bitwise operators
 
 
 Q15. What is difference between / and // operators?
-# '/ '='Division '   	x / y
+ANS: '/ '='Division '   	x / y
 x = 12
 y = 3
 print(x / y)
 4
 
-# '//	'='Floor division'  	x // y
+> '//	'='Floor division'  	x // y
 x = 15
 y = 2
 print(x // y)
 7
-# the floor division // rounds the result down to the nearest whole number
+> the floor division // rounds the result down to the nearest whole number
 
 
 Q16. Write a code that gives following as an output.
 ```
 iNeuroniNeuroniNeuroniNeuron
 ```
-# str = "iNeuron"
-# print(str*4)
+ANS: str = "iNeuron"
+> print(str*4)
 
 
 Q17. Write a code to take a number as an input from the user and check if the number is odd or even.
-#
+ANS:
 num = int(input("Enter a number: "))
 mod = num % 2
 if mod > 0:
@@ -166,7 +167,7 @@ else:
 
 
 Q18. What are boolean operator?
-# The logical operators and, or and not are boolean operators.
+ANS: The logical operators and, or and not are boolean operators.
 
 
 Q19. What will the output of the following?
@@ -182,7 +183,7 @@ True and False and True >>   False
 
 Q20. What are conditional statements in Python?
 
-# A conditional statement as the name suggests itself, is used to handle conditions in your program. These statements guide the program while making decisions based on the conditions encountered by the program.
+ANS: A conditional statement as the name suggests itself, is used to handle conditions in your program. These statements guide the program while making decisions based on the conditions encountered by the program.
 Python has 3 key Conditional Statements:
 if
 else
@@ -191,11 +192,11 @@ elif
 
 Q21. What is use of 'if', 'elif' and 'else' keywords?
 
-# if… elif…else are conditional statements that provide you with the decision making that is required when you want to execute code based on a particular condition. The if… elif…else statement used in Python helps automate that decision making process.
+ANS: if… elif…else are conditional statements that provide you with the decision making that is required when you want to execute code based on a particular condition. The if… elif…else statement used in Python helps automate that decision making process.
 
 
 Q22. Write a code to take the age of person as an input and if age >= 18 display "I can vote". If age is < 18 display "I can't vote".
-#
+ANS:
 your_age = int(input("Enter your age: "))
 if your_age >= 18:
     print("I can vote.")
@@ -208,7 +209,7 @@ Q23. Write a code that displays the sum of all the even numbers from the given l
 ```
 numbers = [12, 75, 150, 180, 145, 525, 50]
 ```
-# o/p
+ANS: o/p
 numbers = [12, 75, 150, 180, 145, 525, 50]
 result = 0
 for i in numbers:
@@ -218,7 +219,7 @@ print(result)
 
 
 Q24. Write a code to take 3 numbers as an input from the user and display the greatest no as output.
-#
+ANS:
 num1 = input("Enter 1st number:")
 num2 = input("Enter 2nd number:")
 num3 = input("Enter 3rd number:")
@@ -239,11 +240,11 @@ numbers = [12, 75, 150, 180, 145, 525, 50]
 ```
 Q26. What is a string? How can we declare string in Python?
 
-# strings in Python are arrays of bytes representing unicode characters. However, Python does not have a character data type, a single character is simply a string with a length of 1.To create a string, put the sequence of characters inside either single quotes, double quotes, or triple quotes and then assign it to a variable.
+ANS: strings in Python are arrays of bytes representing unicode characters. However, Python does not have a character data type, a single character is simply a string with a length of 1.To create a string, put the sequence of characters inside either single quotes, double quotes, or triple quotes and then assign it to a variable.
 
 Q27. How can we access the string using its index?
 
-#  Individual characters in a string can be accessed by specifying the string name followed by a number in square brackets ( [] ). String indexing in Python is zero-based: the first character in the string has index 0 , the next has index 1 , and so on.
+ANS:  Individual characters in a string can be accessed by specifying the string name followed by a number in square brackets ( [] ). String indexing in Python is zero-based: the first character in the string has index 0 , the next has index 1 , and so on.
 
 Q28. Write a code to get the desired output of the following
 ```
@@ -269,7 +270,7 @@ print(str)
 
 Q31. How can you delete entire string at once?
 
-# To clear or remove a string, you assign an empty string or use the del statement,
+ANS: To clear or remove a string, you assign an empty string or use the del statement,
 
 
 Q32. What is escape sequence?
@@ -278,7 +279,7 @@ Q33. How can you print the below string?
 ```
 'iNeuron's Big Data Course'
 ```
-#
+ANS:
 string = str("'iNeuron's Big Data Course'")
 print(string)
 
