@@ -322,17 +322,57 @@ temp = lst[4]
 print(temp[2])
 
 Q38. Take a list as an input from the user and find the length of the list.
+Ans:
+# creating an empty list
+lst1 = []
+# number of elements as input
+n = int(input("Enter number of elements : "))
+  
+# iterating till the range
+for i in range(0, n):
+    ele = int(input())
+  
+    lst1.append(ele) # adding the element
+      
+print(lst1)
+#for number of length
+
+print(len(lst1))
+
+
 
 Q39. Add the word "Big" in the 3rd index of the given list.
 ```
 lst = ["Welcome", "to", "Data", "course"]
-```
+Ans:
+lst = ["Welcome", "to", "Data", "course"]
+lst.insert(3,"Big")
+print(lst)
+
 
 Q40. What is a tuple? How is it different from list?
+Ans:
+A tuple is a collection of objects which ordered and immutable. Tuples are sequences, just like lists.
+The differences between tuples and lists are, the tuples cannot be changed unlike lists and tuples use parentheses, whereas lists use square brackets.
+Tuple is where use when data doesn't require any change in future.
+
 
 Q41. How can you create a tuple in Python?
+Ans:
+A tuple in Python can be created by enclosing all the comma-separated elements inside the parenthesis ().
+eg:
+coordinates = (4,5)
 
 Q42. Create a tuple and try to add your name in the tuple. Are you able to do it? Support your answer with reason.
+ans:
+coordinates = (4,5)
+coordinates[1] = "shubham"
+print(coordinates[1])
+
+# o/p 
+TypeError: 'tuple' object does not support item assignment.
+we are not able to do it because 'tuple' object does not support item assignment.
+
 
 Q43. Can two tuple be appended. If yes, write a code for it. If not, why?
 
