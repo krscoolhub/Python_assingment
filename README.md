@@ -261,6 +261,10 @@ Q29. Write a code to get the desired output of the following
 string = "Big Data iNeuron"
 desired_output = "norueNi"
 ```
+Ans:
+string = "Big Data iNeuron"
+print(string[:-8:-1])
+
 
 Q30. Resverse the string given in the above question.
 # o/p
@@ -270,10 +274,17 @@ print(str)
 
 Q31. How can you delete entire string at once?
 
-ANS: To clear or remove a string, you assign an empty string or use the del statement,
+ANS: To clear or remove a string, you assign an empty string or use the del statement.
+eg....
+string = "Big Data iNeuron"
+del string
+print(string)
 
 
 Q32. What is escape sequence?
+Ans:
+An escape sequence is a sequence of characters that, when used inside a character or string, does not represent itself but is converted into another character or series of characters. So escape sequences are formed using two things: the first is a backslash (\\), and the second is the set of one or more characters following that backslash (\\).
+
 
 Q33. How can you print the below string?
 ```
@@ -285,15 +296,30 @@ print(string)
 
 
 Q34. What is a list in Python?
+Ans:
+In Python, a list is created by placing elements inside square brackets [] , separated by commas. A list can have any number of items and they may be of different types (integer, float, string, etc.). A list can also have another list as an item. This is called a nested list.
+
 
 Q35. How can you create a list in Python?
+Ans:
+To create a list in Python, we use square brackets ( [] ). Here's what a list looks like: ListName = [ListItem, ListItem1, ListItem2, ListItem3, ...]
+eg:
+List1 = ["Welcome", "to", "Data",1,5,9]
+
 
 Q36. How can we access the elements in a list?
+Ans:
+We can access the list by giving the Index.
+Index starts from 0.
+
 
 Q37. Write a code to access the word "iNeuron" from the given list.
 ```
 lst = [1,2,3,"Hi",[45,54, "iNeuron"], "Big Data"]
-``` 
+Ans:
+lst = [1,2,3,"Hi",[45,54, "iNeuron"], "Big Data"]
+temp = lst[4]
+print(temp[2])
 
 Q38. Take a list as an input from the user and find the length of the list.
 
