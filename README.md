@@ -452,14 +452,31 @@ There are two types of loops in Python, for and while.
 
 
 Q70. What is the difference between for and while loops?
+Ans:
+For loop is used when the number of iterations is already known.
+While loop is used when the number of iterations is Unknown.In the while loop, it can be repeated at every iteration. To iterate, the range or xrange function is used.
+
 
 Q71. What is the use of continue statement?
+Ans:
+The continue keyword is used to end the current iteration in a for loop (or a while loop), and continues to the next iteration.
+
 
 Q72. What is the use of break statement?
+Ans:
+'Break' in Python is a loop control statement. It is used to control the sequence of the loop. Suppose you want to terminate a loop and skip to the next code after the loop; break will help you do that.
+
 
 Q73. What is the use of pass statement?
+Ans:
+In Python programming, the pass statement is a null statement which can be used as a placeholder for future code.
+Suppose we have a loop or a function that is not implemented yet, but we want to implement it in the future. In such cases, we can use the pass statement.
+
 
 Q74. What is the use of range() function?
+Ans:
+The range() function returns a sequence of numbers, starting from 0 by default, and increments by 1 (by default), and stops before a specified number.
+
 
 Q75. How can you loop over a dictionary?
 
