@@ -379,8 +379,15 @@ Q43. Can two tuple be appended. If yes, write a code for it. If not, why?
 Q44. Take a tuple as an input and print the count of elements in it.
 
 Q45. What are sets in Python?
+Ans:
+set() method is used to convert any of the iterable to sequence of iterable elements with distinct elements, commonly called Set. Parameters.
+Sets are used to store multiple items in a single variable.
+
 
 Q46. How can you create a set?
+Ans:
+A set is created by placing all the items (elements) inside curly braces {} , separated by comma, or by using the built-in set() function. It can have any number of items and they may be of different types (integer, float, tuple, string etc.).
+
 
 Q47. Create a set and add "iNeuron" in your set.
 
@@ -414,7 +421,10 @@ print(type(var))
 
 
 Q59. How can we add an element in a dictionary?
-
+Ans:
+ By the help of append() , or insert() method we can use to add an item to a dictionary in Python.
+ 
+ 
 Q60. Create a dictionary and access all the values in that dictionary.
 
 Q61. Create a nested dictionary and access all the element in the inner dictionary.
@@ -432,8 +442,14 @@ Q66. What is the use of keys() function?
 Q67. What is the use of values() function?
 
 Q68. What are loops in Python?
+Ans:
+Looping means repeating something over and over until a particular condition is satisfied. A for loop in Python is a control flow statement that is used to repeatedly execute a group of statements as long as the condition is satisfied. Such a type of statement is also known as an iterative statement.
+
 
 Q69. How many type of loop are there in Python?
+Ans:
+There are two types of loops in Python, for and while.
+
 
 Q70. What is the difference between for and while loops?
 
